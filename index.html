@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#f6f7fb" />
+  <meta name="description" content="Explora cinco propuestas de investigación en ingeniería sostenible para la Jornada de Iniciación Científica 2027." />
+  <title>JIC 2027 | Explorador de investigación</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <svg xmlns="http://www.w3.org/2000/svg" class="svg-defs" aria-hidden="true"><symbol id="i-mark" viewBox="0 0 24 24"><path d="M12 2v20M2 12h20M4.9 4.9l14.2 14.2M19.1 4.9 4.9 19.1"/></symbol><symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14m-7-7 7 7-7 7"/></symbol><symbol id="i-up" viewBox="0 0 24 24"><path d="M12 19V5m-7 7 7-7 7 7"/></symbol><symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 11v5m0-8h.01"/></symbol><symbol id="i-target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4"/><circle cx="12" cy="12" r="1"/></symbol><symbol id="i-diamond" viewBox="0 0 24 24"><path d="m12 2 10 10-10 10L2 12Z"/></symbol><symbol id="i-bars" viewBox="0 0 24 24"><path d="M4 20V11h4v9M10 20V5h4v15M16 20V9h4v11"/></symbol><symbol id="i-chart" viewBox="0 0 24 24"><path d="M3 20h18M5 16l5-5 4 3 5-8"/></symbol></svg>
+  <div class="ambient ambient-a" aria-hidden="true"></div><div class="ambient ambient-b" aria-hidden="true"></div>
+  <header class="site-header"><div class="shell navbar">
+    <a class="brand" href="#inicio" aria-label="Inicio JIC 2027"><span class="brand-mark"><svg class="icon icon-mark"><use href="#i-mark" /></svg></span><span>JIC<span class="brand-light">/</span>2027</span></a>
+    <nav class="nav-links" aria-label="Navegación principal"><a href="#propuestas">Propuestas</a><a href="#comparar">Comparar</a><a href="#metodologia">Nuestro enfoque</a></nav>
+    <a class="nav-cta" href="#propuestas">Explorar ideas <svg class="icon"><use href="#i-arrow" /></svg></a>
+  </div></header>
+  <main id="inicio">
+    <section class="hero shell"><div class="hero-copy"><span class="eyebrow"><span class="pulse"></span> INGENIERÍA · DESARROLLO SOSTENIBLE</span>
+      <h1>Ideas que pueden <span class="gradient-text">convertirse en evidencia.</span></h1>
+      <p class="hero-description">Cinco propuestas para la Jornada de Iniciación Científica 2027. Preguntas ambiciosas, experimentos alcanzables y soluciones tecnológicas para problemas reales.</p>
+      <div class="hero-actions"><a class="button button-primary" href="#propuestas">Descubrir las propuestas <svg class="icon"><use href="#i-arrow" /></svg></a><a class="button button-outline" href="#comparar">Ver comparativa <svg class="icon"><use href="#i-arrow" /></svg></a></div>
+      <div class="hero-meta"><div><strong>05</strong><span>propuestas</span></div><div><strong>B/.100</strong><span>presupuesto máximo</span></div><div><strong>03</strong><span>integrantes</span></div></div>
+    </div><div class="hero-art" aria-label="Ilustración abstracta de agua, energía y tecnología"><div class="orb orb-one"></div><div class="orb orb-two"></div><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="art-center"><span><svg class="icon icon-mark"><use href="#i-mark" /></svg></span><small>RESEARCH<br>FOR IMPACT</small></div><span class="art-label art-label-top">IDEAS → HIPÓTESIS</span><span class="art-label art-label-bottom">EXPERIMENTOS → DATOS</span></div></section>
+    <section class="section shell" id="propuestas"><div class="section-head"><div><p class="section-kicker">01 / EXPLORAR</p><h2>Cinco preguntas.<br><span class="muted">Cinco posibilidades.</span></h2></div><p>Selecciona una propuesta para conocer el problema, la innovación, el experimento y las métricas con las que se pondría a prueba.</p></div>
+      <div class="filters" role="group" aria-label="Filtrar propuestas"><button class="filter active" data-filter="todos" aria-pressed="true">Todas <span>05</span></button><button class="filter" data-filter="agua" aria-pressed="false">Agua y resiliencia</button><button class="filter" data-filter="tecnologia" aria-pressed="false">Tecnología</button><button class="filter" data-filter="ambiente" aria-pressed="false">Medioambiente</button></div>
+      <div class="cards" id="cards"></div>
+    </section>
+    <section class="section comparison-section" id="comparar"><div class="shell"><div class="section-head"><div><p class="section-kicker">02 / DECIDIR CON CRITERIO</p><h2>No solo ideas.<br><span class="muted">Investigaciones viables.</span></h2></div><p>Una comparación inicial para conversar con el asesor. Los costos son estimaciones y la novedad científica todavía debe verificarse.</p></div>
+      <div class="comparison-wrap"><table class="comparison"><thead><tr><th>Propuesta</th><th>Costo estimado</th><th>Fortaleza</th><th>Reto principal</th></tr></thead><tbody id="comparison-body"></tbody></table></div>
+      <div class="notice"><svg class="icon notice-icon"><use href="#i-info" /></svg><p><strong>Importante:</strong> ninguna propuesta tiene originalidad mundial demostrada todavía. Las hipótesis son puntos de partida; los resultados deberán obtenerse mediante ensayos repetibles y comparación con métodos existentes.</p></div>
+    </div></section>
+    <section class="section shell approach-section" id="metodologia"><div class="section-head"><div><p class="section-kicker">03 / CÓMO INVESTIGAREMOS</p><h2>Menos promesas.<br><span class="muted">Más ciencia.</span></h2></div><p>El objetivo no es crear una aplicación vistosa: es formular una hipótesis y comprobarla con evidencia sólida.</p></div>
+      <div class="steps"><article><span class="step-num">01</span><div class="step-icon"><svg class="icon"><use href="#i-target" /></svg></div><h3>Problema real</h3><p>Identificar un desafío concreto del desarrollo sostenible.</p></article><article><span class="step-num">02</span><div class="step-icon"><svg class="icon"><use href="#i-diamond" /></svg></div><h3>Hipótesis medible</h3><p>Definir qué mejora esperamos y qué resultado la refutaría.</p></article><article><span class="step-num">03</span><div class="step-icon"><svg class="icon"><use href="#i-bars" /></svg></div><h3>Pruebas controladas</h3><p>Repetir ensayos y comparar contra alternativas existentes.</p></article><article><span class="step-num">04</span><div class="step-icon"><svg class="icon"><use href="#i-chart" /></svg></div><h3>Resultados verificables</h3><p>Analizar errores, limitaciones e impacto real del prototipo.</p></article></div>
+    </section>
+    <section class="callout shell"><div><span class="section-kicker">LA IDEA CENTRAL</span><h2>Una investigación pequeña, <em>bien demostrada</em>, puede tener un impacto enorme.</h2><p>Estas propuestas son el punto de partida para discutir con nuestro asesor y escoger qué hipótesis vale la pena investigar.</p></div><a class="button button-primary" href="#propuestas">Revisar propuestas <svg class="icon"><use href="#i-up" /></svg></a></section>
+  </main>
+  <footer class="footer shell"><span class="brand"><span class="brand-mark"><svg class="icon icon-mark"><use href="#i-mark" /></svg></span> JIC/2027</span><p>Exploración académica independiente · Propuestas preliminares para evaluación con asesor.</p><a href="#inicio">Volver arriba <svg class="icon"><use href="#i-up" /></svg></a></footer>
+  <dialog id="detail-dialog" aria-labelledby="dialog-title"><div class="dialog-content" id="dialog-content"></div></dialog>
+  <script src="script.js"></script>
+</body>
+</html>
